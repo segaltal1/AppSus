@@ -9,5 +9,6 @@
 .home-main h1 {
     color: #626262;
     font-family: 'lato-regular';
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 
 }
