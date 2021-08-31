@@ -1,0 +1,15 @@
+.book-filter {
+    margin: 0 auto;
+    text-align: center;
+    height: 30px;
+    padding: 5px 50px;
+    margin-block-end: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    font-size: 1.2rem;
+}
+
+.book-filter input {
+    font-size: 1.2rem;
+}

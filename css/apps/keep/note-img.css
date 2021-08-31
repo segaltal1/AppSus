@@ -1,0 +1,19 @@
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    padding-bottom: 1.5em;
+}
+
+.image-container.pinned :first-child {
+    height: 20px;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.image-container.pinned [name="txtInput"] {
+    height: 1em;
+}

@@ -1,0 +1,40 @@
+@import url('./set-up.css');
+@import url('./pages/home.css');
+@import url('./cmps/app-header.css');
+@import url('./cmps/book-filter.css');
+@import url('./cmps/book-list.css');
+@import url('./cmps/book-preview.css');
+@import url('./pages/about-us.css');
+@import url('./pages/review-form.css');
+@import url('./cmps/reviews-list.css');
+@import url('./cmps/search-list.css');
+@import url('./pages/book-details.css');
+
+ 
+
+/*  */
+
+.sale-sign {
+    text-align: center;
+    position: relative;
+    background-color: red;
+    /* width: 50px; */
+    width: 33%;
+    height: 10%;
+    bottom: 22px;
+    display: none;
+    max-height: 25px;
+    color: white;
+}
+
+.Green {
+    color: rgb(2, 172, 2);
+}
+
+.Red {
+    color: red;
+}
+
+.show {
+    display: inline-block;
+}

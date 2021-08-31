@@ -1,0 +1,11 @@
+.review-form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.review-form input , .review-form textarea ,.review-form select{
+    width: 300px;
+    height: 30px;
+    margin-block-end: 20px;
+}

@@ -1,0 +1,15 @@
+.note-setup {
+    /* flex-direction: column; */
+    display: block
+}
+.setup-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.setup-buttons>* {
+    color: rgb(62, 62, 65);
+}
+
+.setup-buttons>:hover {
+    color: rgb(146, 141, 141);
+}

@@ -1,0 +1,21 @@
+.note-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.edit-note-btn {
+    font-size: 20px;
+    align-self: center;
+}
+
+[name="txtInput"] {
+    height: 1em;
+}
+
+.note-edit form {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}

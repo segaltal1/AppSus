@@ -1,0 +1,115 @@
+.bookcard {
+    display: flex;
+    justify-content: center;
+}
+
+.book-img-container {
+    height: 500px;
+    min-width: 350px;
+    background-color: aqua;
+}
+
+.book-img-container img {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.book-info-card {
+    margin: 50px auto;
+    max-width: 700px;
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+}
+
+.book-info h2 {
+    margin-top: 0;
+}
+
+.book-info button {
+    margin-block-start: 30px;
+    border-radius: 28px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    border: none;
+    color: white;
+    padding: 5px 0;
+}
+
+.book-desc  {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-container a {
+    text-decoration: none;
+    color: #222;
+}
+
+.back-btn {
+    background-color: rgb(79, 187, 223);
+}
+
+.book-age {
+    margin-top: 0;
+    color: rgb(146, 146, 146);
+}
+
+.delete-btn {
+    background-color: rgb(247, 53, 53);
+}
+.add-review-btn{
+    background-color: rgb(255, 255, 94);
+}
+
+.back-btn:hover {
+    background-color: rgb(63, 164, 197);
+}
+
+.delete-btn:hover {
+    background-color: rgb(212, 48, 48);
+}
+
+.add-cart-btn {
+    border: none;
+    border-radius: 28px;
+    background-color: rgb(248, 223, 82);
+    line-height: 1.5rem;
+}
+
+.book-paging {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-paging button {
+    width: 40%;
+}
+
+.book-paging a {
+    color: white;
+}
+
+.prev-page {
+    background-color: cornflowerblue;
+}
+
+.next-page {
+    background-color: rgb(238, 79, 79);
+}
+.prev-page:hover {
+    background-color: rgb(71, 132, 245);
+}
+
+.next-page:hover {
+    background-color: rgb(240, 48, 48);
+}
+.read-more{
+    color: mediumblue;
+}

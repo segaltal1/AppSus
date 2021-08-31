@@ -1,0 +1,13 @@
+.home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(201, 201, 201); */
+    /* clip-path: polygon(100% 0, 100% 38%, 52% 89%, 18% 100%, 0% 38%); */
+}
+
+.home-main h1 {
+    color: #626262;
+    font-family: 'lato-regular';
+
+}

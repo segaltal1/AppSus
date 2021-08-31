@@ -1,0 +1,53 @@
+.add-note {
+    display: flex;
+    padding: 10px;
+    /* width: 80%; */
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.add-note button {
+    padding: 5px;
+    font-size: 1.5em;
+    background-color: unset;
+    border: unset;
+    cursor: pointer;
+}
+
+.add-note form {
+    display: flex;
+    align-items: center;
+}
+
+.add-note input {
+    padding: 5px;
+    border-radius: 1em;
+}
+
+.note-type-container button {
+    color: gray;
+    transition: box-shadow 0.7s;
+}
+
+.note-type-container .active-type {
+    color: rgb(56, 55, 55);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.note-type-container button:not(.active-type):hover {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+@media (max-width: 550px) {
+    .add-note {
+        flex-direction: column;
+        /* padding: 5px; */
+        /* justify-content: space-between; */
+    }
+    .note-type-container {
+        display: flex;
+        align-items: center;
+    }
+}

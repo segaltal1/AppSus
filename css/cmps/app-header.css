@@ -1,0 +1,62 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #626262;
+    font-size: 2em;
+}
+
+.main-nav-bar {
+    right: 0;
+    top: 4em;
+    position: fixed;
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.4s ease-in-out;
+    transform: translateX(200%);
+}
+.collection-btn img{
+    height: 48px;
+    opacity: 0.75;
+}
+button.collection-btn {
+    transition: transform 0.4s ease-in-out;
+}
+
+button.collection-btn:hover {
+    transform: scale(1.1);
+}
+
+.main-nav-bar li>* {
+    text-decoration: none;
+    color: gray;
+}
+
+.main-nav-bar li{
+    transition: transform 0.4s ease-in-out;
+
+}
+.main-nav-bar li:hover{
+    transform: scale(1.1);
+}
+
+li a.active {
+    color: #222;
+}
+
+.open-nav {
+    transform: translateX(0);
+}
+
+.close-nav {
+    transform: translateX(200%);
+}

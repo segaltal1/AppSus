@@ -1,0 +1,12 @@
+iframe {
+    border: none;
+    border-radius: 10px;
+}
+.video-note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 5px;
+}

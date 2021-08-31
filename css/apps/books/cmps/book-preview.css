@@ -1,0 +1,43 @@
+.book-preview {
+    max-height: 380px;
+    width: 170px;
+    padding: 10px;
+    gap: 10px;
+    /* text-align: center; */
+    border: 1px solid rgba(219, 219, 219, 0.363);
+}
+
+.book-preview h3 {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    height: 45px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 25ch;
+}
+
+.book-img {
+    max-height: 200px;
+    margin: 15px 0;
+}
+
+.book-img img {
+    width: 150px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.book-details p {
+    color: #555;
+    margin: 7px 0;
+    margin-block-end: 25px;
+}
+
+.price {
+    font-size: 2rem;
+    margin: 0 5px;
+    color: #111;
+}

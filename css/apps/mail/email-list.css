@@ -1,0 +1,47 @@
+.email-list {
+    min-width: 380px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f6f9fc;
+    /* margin-inline-start: 5px; */
+}
+
+
+
+@media (max-width:450px) {
+    .email-list {
+        width: 95%;
+        max-width: 430px;
+        margin: 0 auto;
+        margin-inline-start: 5px;
+        display: flex;
+        justify-self: center;
+    }
+    .email-list .m-image h1 {
+        margin: 0;
+        align-self: flex-end;
+        padding-bottom: 5px;
+    }
+}
+
+@media (min-width:450px) {
+    .email-list {
+        max-width: 650px;
+        width: 100%;
+        justify-self: center;
+        border: 1px solid gray;
+        margin: 0 auto;
+        background-color: #e6eff6;
+    }
+}
+
+@media (min-width:700px) {
+    .email-list {
+        justify-self: center;
+        width: 100%;
+        /* max-width: 650px; */
+        border: 1px solid gray;
+        margin: 0 auto;
+        background-color: #e6eff6;
+    }
+}
